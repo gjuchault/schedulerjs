@@ -2,6 +2,8 @@
 
 A wrapper around Promise to control the execution flow
 
+![travis-ci](https://travis-ci.org/gjuchault/scheduler.js.svg?branch=master)
+
 ## License
 
 Released under MIT License
