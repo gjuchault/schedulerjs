@@ -1,0 +1,31 @@
+{
+  "name": "scheduler.js",
+  "version": "1.0.0",
+  "description": "A promise execution flow control library",
+  "main": "index.js",
+  "files": [
+    "lib",
+    "test",
+    "index.js"
+  ],
+  "keywords": [
+    "promise",
+    "execution",
+    "flow",
+    "sequence",
+    "serie",
+    "series"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gjuchault/scheduler.js"
+  },
+  "bugs": {
+    "url": "https://github.com/gjuchault/scheduler.js/issues"
+  },
+  "scripts": {
+    "test": "mocha test/test --sort --bail"
+  },
+  "author": "Gabriel Juchault <gabriel.juchault@gmail.com>",
+  "license": "MIT"
+}
