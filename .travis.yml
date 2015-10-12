@@ -1,10 +1,15 @@
 language: node_js
 sudo: required
 node_js:
-  - '4'
-
+- '4'
 install:
-  - "npm install -g mocha"
-
+- npm install -g mocha
 script:
-  - "npm run test"
+- npm run test
+deploy:
+  provider: npm
+  email: gabriel.juchault@gmail.com
+  api_key:
+    secure: ovoGqfWnc9Kbp8yOQobZkyh8dawEuh/BeMDp6hYWhRPt+LQpcfURXNYFUtmoDRxfKHMGUuuo3kjF2R5Hejv5l0QKWkbzsYpRl01qRp+5WfTU72VN2lOcpqihYov2bPKcVrHtGsfVCw+xUWI7wHv1EmUpU4WdOdMbrD7FqDO0vdUgaX6jJMiTLw7Y1iIE3auDYtCFigfYcKyABpR/2guLLRSh+ywWeFbkVty8yYJlDW8FYzMd7Vza0nqnzyBwJJkED73kULexZeOVbxuzZ0qKqeWLWVmYGCvNR6gdWTSs5ZQKChy/praSp8Qr0lQvrmBKNi8mbjBPWwlWsF96I04IImXUm6/BZLHEDGoQLCfu9nUOD1J9tAN4rP0lz2fjE4prWq0SFYR0xjUyUmHqbeTWeseUBNObQ8ESpF8zkBARVsWL581q5Z1VTw3KiuTu6uM6yKvYQKztb9BAp8jn0QX5dgc/tiUSxVJ6he2dZF7ECgLoFA9sQNxogQKplgpHafk4ELlkwzDN7UsM7utzz46LDw35d02zp5UcrTzhqG8OZJaHFB7SZtbZNNg8lvI00BG6UnW84wmkgdmNOhlu2ddLtfGlyK7Eb+4pjvghpt1Bq1uzGKBZ5jbDctGgB7KSWcQqprccBI1+4Ur2K6E0/3gPPTht7DD0Cmo1OonEUkEHbDQ=
+  on:
+    repo: gjuchault/scheduler.js
