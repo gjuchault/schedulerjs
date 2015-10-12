@@ -1,6 +1,6 @@
 {
   "name": "schedulerjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A promise execution flow control library",
   "main": "dist/index.js",
   "files": [
