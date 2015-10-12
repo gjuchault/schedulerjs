@@ -3,8 +3,8 @@
 /* globals describe, it */
 
 let assert    = require('assert');
-let Scheduler = require('../lib/scheduler');
-let Sequence  = require('../lib/sequence');
+let Scheduler = require('../dist/scheduler');
+let Sequence  = require('../dist/sequence');
 
 describe('scheduler.js', () => {
     describe('Scheduler', () => {

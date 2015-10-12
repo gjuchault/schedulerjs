@@ -24,7 +24,7 @@
     "url": "https://github.com/gjuchault/schedulerjs/issues"
   },
   "scripts": {
-    "test": "mocha test/test --sort --bail",
+    "test": "babel -d dist/ lib/ && mocha test/test --sort --bail",
     "prepublish": "babel -d dist/ lib/"
   },
   "author": "Gabriel Juchault <gabriel.juchault@gmail.com>",
