@@ -3,7 +3,7 @@ sudo: required
 node_js:
 - '4'
 install:
-- npm install -g mocha
+- npm install -g mocha babel
 script:
 - npm run test
 deploy:
