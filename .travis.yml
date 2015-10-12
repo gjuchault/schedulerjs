@@ -5,7 +5,7 @@ node_js:
 install:
 - npm install -g mocha babel
 script:
-- npm run test
+- npm test
 deploy:
   provider: npm
   email: gabriel.juchault@gmail.com
