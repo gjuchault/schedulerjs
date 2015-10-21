@@ -2,7 +2,7 @@
 
 A wrapper around Promise to control the execution flow
 
-![travis-ci](https://travis-ci.org/gjuchault/scheduler.js.svg?branch=master)
+[![Build Status](https://travis-ci.org/gjuchault/schedulerjs.svg?branch=master)](https://travis-ci.org/gjuchault/schedulerjs)
 
 ## License
 
