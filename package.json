@@ -1,12 +1,10 @@
 {
   "name": "schedulerjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A promise execution flow control library",
   "main": "dist/index.js",
   "files": [
-    "lib",
-    "test",
-    "index.js"
+    "dist"
   ],
   "keywords": [
     "promise",
@@ -25,7 +23,7 @@
   },
   "scripts": {
     "test": "babel -d dist/ lib/ && mocha dist/test --sort --bail",
-    "postinstall": "babel -d dist/ lib/"
+    "prepublish": "babel -d dist/ lib/"
   },
   "author": "Gabriel Juchault <gabriel.juchault@gmail.com>",
   "license": "MIT",
